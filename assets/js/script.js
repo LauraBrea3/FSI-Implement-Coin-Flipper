@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let headsFlipMsg = "You Flipped Heads!"
     
     
-document.querySelector('#message').innerHTML = 'Let/s get Flipping!'
+document.querySelector('#message').innerHTML = 'Let\s get Flipping!'
 document.querySelector('#flip').addEventListener('click', function (){
     if (Math.random() > 0.5){
         totalFlips++
@@ -49,7 +49,7 @@ tailsPercent = 0
 totalFlips = 0
 let total = heads + tails
 
-document.querySelector('#message').innerHTML = 'Let/s get Flipping!'
+document.querySelector('#message').innerHTML = 'Let\s get Flipping!'
 if (total > 0){
     headsPercent = Math.round(heads/totalFlips * 100)
     tailsPercent = Math.round(tails/totalFlips * 100)
