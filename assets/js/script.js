@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let headsFlipMsg = "You Flipped Heads!"
     
     
-
+document.querySelector('#message').innerHTML = 'Flip that coin!'
 document.querySelector('#flip').addEventListener('click', function (){
     if (Math.random() > 0.5){
         totalFlips++
